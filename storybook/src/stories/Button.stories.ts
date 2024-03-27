@@ -1,10 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
-import { Button } from './Button';
+// import { Button } from './Button';
+import FeatureCard from '../../../site/components/FeatureCard';
 
 const meta = {
   title: 'Example/Button',
-  component: Button,
+  component: FeatureCard,
   parameters: {
     layout: 'centered',
   },
@@ -13,7 +14,7 @@ const meta = {
     backgroundColor: { control: 'color' },
   },
   args: { onClick: fn() },
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof FeatureCard>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -22,6 +23,6 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Button',
+    label: 'FeatureCard',
   },
 };

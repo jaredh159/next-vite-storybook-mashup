@@ -19,6 +19,9 @@ dev:
   "just dash" "just site"
   # "just dash" "just site" "just storybook"
 
+typecheck:
+	@pnpm exec nx run-many --parallel=10 --target=typecheck
+
 nuke-node-modules:
   # @pnpm store prune
   @find . -name "node_modules" -type d -prune -exec rm -rf {} + && pnpm i

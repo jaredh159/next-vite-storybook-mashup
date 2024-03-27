@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "storybook dev -p 6006 --ci",
+    "typecheck": "tsc --noEmit",
     "build-storybook": "storybook build"
   },
   "dependencies": {
