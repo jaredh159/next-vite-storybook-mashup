@@ -1,4 +1,4 @@
 packages:
-  - 'next-app'
-  - 'vite-app'
+  - 'site'
+  - 'dash/app'
   - 'storybook'
