@@ -140,6 +140,9 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.22.3
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
       '@chromatic-com/storybook':
         specifier: ^1.2.25
