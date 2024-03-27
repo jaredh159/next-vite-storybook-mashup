@@ -2,3 +2,13 @@
 *.swp
 node_modules/
 .env
+
+
+.nx/cache
+
+# Next.js
+.next
+out
+
+
+storybook-static
