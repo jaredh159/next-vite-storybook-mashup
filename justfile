@@ -16,7 +16,8 @@ dev:
   pnpm concurrently \
   -n ds,st,sb \
   -c cyan.dim,magenta.dim,green.dim \
-  "just dash" "just site" "just storybook"
+  "just dash" "just site"
+  # "just dash" "just site" "just storybook"
 
 nuke-node-modules:
   # @pnpm store prune
